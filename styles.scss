@@ -1,4 +1,17 @@
+/* import from the top root of sass */
 @import "~bootstrap/scss/_functions.scss";
 @import "~bootstrap/scss/_variables.scss";
 @import "_custom_breakpoints.scss";
 @import "~bootstrap/scss/bootstrap.scss";
+
+
+@media only screen and (max-width: #{map_get($container-max-widths, md)}) {
+      //styles for screen ms and below   
+      //use map_get($container-max-widths) for max-width
+}
+
+
+@media only screen and (min-width: #{map_get($grid-breakpoints, lg)}) {
+  //styles for screen lg and above 
+  //use map_get($grid-breakpoints) for min-width
+}
