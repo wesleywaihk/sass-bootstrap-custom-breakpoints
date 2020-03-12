@@ -1,0 +1,20 @@
+//$grid-gutter-width: rem-calc(30);
+$grid-breakpoints: (
+    // Extra small screen / phone
+    xs: 0,
+    // Small screen / phone
+    sm: 576px,
+    // Medium screen / tablet
+    md: 769px,
+    // Large screen / desktop
+    lg: 1025px,
+    // Extra large screen / wide desktop
+    xl: 1281px
+);
+$container-max-widths: (
+    xs: 575px,
+    sm: 768px,
+    md: 1024px,
+    lg: 1280px,
+    xl: 1280px
+);
